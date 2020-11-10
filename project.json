@@ -3,6 +3,8 @@
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
+    "ClickSendV3API": "[5.0.64]",
+    "Microsoft.VisualStudio.InteractiveWindow": "[2.8.0]",
     "UiPath.Excel.Activities": "[2.9.3]",
     "UiPath.Mail.Activities": "[1.9.3]",
     "UiPath.System.Activities": "[20.10.1]",
