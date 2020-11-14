@@ -163,9 +163,9 @@
                     <InArgument x:TypeArguments="x:String">[item.From.ToString]</InArgument>
                   </Assign.Value>
                 </Assign>
-                <If Condition="[str_MailSubject=&quot;4U: Specialprices&quot;]" sap:VirtualizedContainerService.HintSize="579,208" sap2010:WorkflowViewState.IdRef="If_4">
+                <If Condition="[str_MailSubject=&quot;A3: Specialprices&quot;]" sap:VirtualizedContainerService.HintSize="579,208" sap2010:WorkflowViewState.IdRef="If_4">
                   <If.Then>
-                    <Flowchart sap:VirtualizedContainerService.HintSize="634,636" sap2010:WorkflowViewState.IdRef="Flowchart_3">
+                    <Flowchart sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="Flowchart_3">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -440,7 +440,7 @@ arr_TextSplitByLine(5).Length).ToString("000")]</InArgument>
                                 <av:Size x:Key="ShapeSize">200,66</av:Size>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Sequence DisplayName="Get Jar Fil From Folder " sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_64">
+                            <Sequence DisplayName="Get Jar Fil From Folder " sap:VirtualizedContainerService.HintSize="691,1062" sap2010:WorkflowViewState.IdRef="Sequence_64">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -714,7 +714,7 @@ arr_TextSplitByLine(5).Length).ToString("000")]</InArgument>
                             <av:PointCollection x:Key="ConnectorLocation">110,214 110,285.5</av:PointCollection>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <Sequence sap2010:Annotation.AnnotationText="Read The Excel File And Write it into Text File" DisplayName="Take Data" sap:VirtualizedContainerService.HintSize="476,1236" sap2010:WorkflowViewState.IdRef="Sequence_46">
+                        <Sequence sap2010:Annotation.AnnotationText="Read The Excel File And Write it into Text File" DisplayName="Take Data" sap:VirtualizedContainerService.HintSize="200,108" sap2010:WorkflowViewState.IdRef="Sequence_46">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
